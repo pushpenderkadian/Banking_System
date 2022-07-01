@@ -1,0 +1,65 @@
+[
+    {
+        "username": "Arthur",
+        "password": "123",
+        "user_type": "admin",
+        "other_information": "None"
+    },
+    {
+        "username": "Boris",
+        "password": "ABC",
+        "user_type": "user",
+        "other_information": {
+            "address": "10 London Road",
+            "current_account": [
+                {
+                    "number": 1,
+                    "balance": 1000,
+                    "overdraft_limit": 100
+                }
+            ]
+        }
+    },
+    {
+        "username": "Chloe",
+        "password": "1+x",
+        "user_type": "user",
+        "other_information": {
+            "address": "99 Queens Road",
+            "current_account": [
+                {
+                    "number": 1,
+                    "balance": 1000,
+                    "overdraft_limit": 100
+                }
+            ],
+            "saving_account": [
+                {
+                    "number": 1,
+                    "balance": 4000,
+                    "interest_rate": 2.99
+                }
+            ]
+        }
+    },
+    {
+        "username": "David",
+        "password": "aBC",
+        "user_type": "user",
+        "other_information": {
+            "address": "2 Birmingham Street",
+            "saving_account": [
+                {
+                    "number": 1,
+                    "balance": 200,
+                    "interest_rate": 0.99
+                },
+                {
+                    "number": 2,
+                    "balance": 5000,
+                    "interest_rate": 4.99
+                }
+            ]
+        }
+    }
+]
